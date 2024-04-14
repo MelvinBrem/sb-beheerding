@@ -1,0 +1,31 @@
+@import 'bootstrap/scss/bootstrap';
+@import url('./../../node_modules/sortable-tablesort/sortable.min.css');
+
+section{
+    margin: 1rem 0;
+}
+
+// table{
+//     tr{
+//         th, td{
+//             padding: 0.1rem 1rem;
+//         }
+
+//         th{
+//             border-bottom: 1px solid black;
+//             border-right: 1px solid black;
+//             &:last-child{
+//                 border-right: none;
+//             }
+            
+//             &:hover{
+//                 background-color: rgba($color: #000000, $alpha: 0.1);
+//                 cursor: pointer;
+//             }
+//         }
+
+//         &:nth-child(even){
+//             background-color: rgba($color: #000000, $alpha: 0.1);
+//         }
+//     }
+// }
