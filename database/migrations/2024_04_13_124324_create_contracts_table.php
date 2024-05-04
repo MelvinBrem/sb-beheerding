@@ -17,6 +17,9 @@ return new class extends Migration
             $table->string('hs_contract_name')->default('')->nullable();
             $table->string('hs_contract_url')->default('')->nullable();
             $table->string('hs_pipeline_stage')->default('')->nullable();
+            $table->boolean('utr_status')->default(false)->nullable();
+            $table->boolean('mwp_status')->default(false)->nullable();
+            $table->boolean('gi_status')->default(false)->nullable();
             $table->timestamps();
         });
     }

@@ -1,17 +1,15 @@
-<section>
+<header>
     <div class="container">
         <div class="row">
-            <div class="col-12">
-                <span>SB Beheerding</span>
+            <div class="col-12 py-3">
+                <img class="logo" src="{{URL::asset('/img/logo.png')}}" alt="">
 
                 <nav>
                     <ul>
-                        <li><a href="/">Index</a></li>
-                        <li><a href="{{route('dashboard-contracts')}}">Contracts</a></li>
-                        <li><a href="{{route('dashboard-sites')}}">Sites</a></li>
+                        <li><a href="{{route('dashboard')}}">Dashboard</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </div>
-</section>
+</header>

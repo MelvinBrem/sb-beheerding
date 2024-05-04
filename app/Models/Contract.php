@@ -23,7 +23,7 @@ class Contract extends Model
         ];
 
         return Attribute::make(
-            get: fn ($value) => $stageNames[$value],
+            get: fn ($value) => ($value ? $stageNames[$value] : 'UNKOWN'),
         );
     }
 
